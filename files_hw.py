@@ -9,11 +9,10 @@ with open('referat.txt', 'r', encoding='utf-8') as f:
 
 with open('referat.txt', 'w', encoding='utf-8') as f:
     f.write(content.replace('.', '!'))
-    #print(content)
+    print(content)
 
 with open('referat_modified.txt', 'w', encoding='utf-8') as f:
     f.write(content)
-    print(content)
 
 
 
